@@ -1,0 +1,274 @@
+{
+	"easycom": {
+		// 下载安装的方式需要前面的"@/"，npm安装的方式无需"@/"
+		// 下载安装方式
+		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+		// npm安装方式
+		// "^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [{
+			"path": "pages/login/loginForm",
+			"style": {
+				// "navigationBarBackgroundColor": "#fff",
+				// "navigationBarTitleText":"",
+
+				// 去除顶部原生导航栏样式
+				// "app-plus": {
+				// 	"titleNView": false
+				// },
+				"navigationStyle": "custom", // 隐藏系统导航栏
+				"navigationBarTextStyle": "white", // 状态栏字体为白色，只能为 white-白色，black-黑色 二选一
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/login/register",
+			"style": {
+				// "navigationBarBackgroundColor": "#fff",
+				// "navigationBarTitleText":"",
+
+				// 去除顶部原生导航栏样式
+				// "app-plus": {
+				// 	"titleNView": false
+				// },
+				"navigationStyle": "custom", // 隐藏系统导航栏
+				"navigationBarTextStyle": "white", // 状态栏字体为白色，只能为 white-白色，black-黑色 二选一
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/home/home",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"enablePullDownRefresh": false,
+				"disableScroll": false
+			}
+
+		}, {
+			"path": "pages/internship/internship",
+			"style": {
+				"navigationBarTitleText": "实习圈",
+				"disableScroll": false,
+				"enablePullDownRefresh": true
+			}
+
+		}, {
+			"path": "pages/student/addMessage/addMessage",
+			"style": {
+				"navigationBarTitleText": "发布",
+				"disableScroll": true,
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/student/message/message",
+			"style": {
+				"navigationBarTitleText": "消息",
+				"enablePullDownRefresh": false,
+				"disableScroll": false
+			}
+
+		}, {
+			"path": "pages/student/my/my",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/error/error",
+			"style": {
+				"navigationBarTitleText": "error",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/student/addMessage/edit",
+			"style": {
+				"navigationBarTitleText": "编辑",
+				"backgroundColor": "#dfdfdf",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/student/message/guardAngel/guardAngel",
+			"style": {
+				"navigationBarTitleText": "守护天使",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/student/message/guardAngel/chat",
+			"style": {
+				"navigationBarTitleText": "聊天",
+				"enablePullDownRefresh": true,
+				"disableScroll": false
+			}
+
+		}
+
+		, {
+			"path": "pages/student/message/monthlySummary/monthlySummary",
+			"style": {
+				"navigationBarTitleText": "每月主题总结",
+				"enablePullDownRefresh": false,
+				"disableScroll": false
+			}
+
+		}, {
+			"path": "pages/student/message/interview/interview",
+			"style": {
+				"navigationBarTitleText": "面试通知",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/student/message/lectureMeeting/lectureMeeting",
+			"style": {
+				"navigationBarTitleText": "宣讲会",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/student/my/myDetails/myDetails",
+			"style": {
+				"navigationBarTitleText": "我的详细资料",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "uview-ui/components/u-avatar-cropper/u-avatar-cropper",
+			"style": {
+				"navigationBarTitleText": "头像裁剪",
+				"navigationBarBackgroundColor": "#000000"
+			}
+		}, {
+			"path": "pages/student/my/myDetails/changeIntro",
+			"style": {
+				"navigationBarTitleText": "更改信息",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/student/my/set/set",
+			"style": {
+				"navigationBarTitleText": "设置",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/student/my/treasure/treasure",
+			"style": {
+				"navigationBarTitleText": "实习宝藏",
+				"enablePullDownRefresh": false,
+				"disableScroll": false
+			}
+
+		}, {
+			"path": "pages/student/my/treasure/submitTask",
+			"style": {
+				"navigationBarTitleText": "实习宝藏详情页",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/student/my/treasure/starRank",
+			"style": {
+				"navigationBarTitleText": "星星数排行",
+				"enablePullDownRefresh": false,
+				"disableScroll": false
+			}
+
+		}, {
+			"path": "pages/student/my/treasure/treasureCheck",
+			"style": {
+				"navigationBarTitleText": "实习宝藏审核",
+				"enablePullDownRefresh": false,
+				"disableScroll": false
+			}
+
+		}
+	    ,{
+            "path" : "pages/student/message/messageDetails",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "消息详情",
+                "enablePullDownRefresh": false,
+				"disableScroll": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/student/my/treasure/taskRecord",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "任务记录",
+                "enablePullDownRefresh": false,
+                "disableScroll": false
+            }
+            
+        },
+		{
+		    "path" : "pages/student/my/treasure/taskDescribe",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "任务描述详情",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+    ],
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#3cc51f",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"height": "50px",
+		"fontSize": "10px",
+		"iconWidth": "24px",
+		"spacing": "3px",
+		// 五个页面的tab
+		"list": [{
+				"text": "首页",
+				"pagePath": "pages/home/home",
+				"iconPath": "static/icon/tabs/shouye.png",
+				"selectedIconPath": "static/icon/tabs/selected/shouye.png"
+			},
+			{
+				"text": "实习圈",
+				"pagePath": "pages/internship/internship",
+				"iconPath": "static/icon/tabs/daohanglan-02.png",
+				"selectedIconPath": "static/icon/tabs/selected/daohanglan-02.png",
+				"disableScroll": false
+
+			},
+			{
+				"text": "发布",
+				"pagePath": "pages/student/addMessage/addMessage",
+				"iconPath": "static/icon/tabs/tianjia.png",
+				"selectedIconPath": "static/icon/tabs/selected/tianjia.png"
+			},
+			{
+				"text": "消息",
+				"pagePath": "pages/student/message/message",
+				"iconPath": "static/icon/tabs/xiaoxi.png",
+				"selectedIconPath": "static/icon/tabs/selected/xiaoxi.png",
+				"disableScroll": false
+			},
+			{
+				"text": "我的",
+				"pagePath": "pages/student/my/my",
+				"iconPath": "static/icon/tabs/wode.png",
+				"selectedIconPath": "static/icon/tabs/selected/wode.png"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationStyle": "custom",
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "I-Do",
+		"navigationBarBackgroundColor": "#007AFF",
+		"backgroundColor": "#FFFFFF",
+		"disableScroll": true
+	}
+}

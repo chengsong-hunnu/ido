@@ -1,0 +1,33 @@
+@font-face {
+	font-family: "custom-icon";
+	/* IE9 */
+	src: url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAASUAAsAAAAACUgAAARGAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDKAqFQIRjATYCJAMYCw4ABCAFhREHTxsUCBEVnNvJvsC2YQ8ozBl8igLFbz9bpNp1evcDIkhgAQAAAABBPL1X1Ut3snPJQj5B/hI1AWC2040mvruRJRBwYOmeIwuo9BGC7rbp1pssS2bEJ9a3XfcCKXi4NLz4X2t7lwX1dBA9FEJeS9C2I2LTCc0arf290CBU5v9+r77EX9Z47dF3iiyKbvqAeXwFFFEYhQPfjm84Qd4DPMMgNZ+4HgLYRJMJKVWmUi1caILdBJBO7ds2x9UyoidogktjCcdqZBomLmO8QWBq/vXyhhziAgNTEexbTZduRbHv/PlaDXNvG6UQosPZAe0kUEAmQIM0Ep11oMpIJhS249SkT2+uEXi+dtfzeSq82H95IBgoNCaIRaD0RLyS3uRBiWICAs8XBAx4viSg4PmKgIbnayMmaq0D1jrADSBJiGeyGyjmh8XZPZXj6ZnLMyr9mLZ5h80Pmr3aWWtD5i6UuSB4Q/KEwMRZswLz1HWwa819O9gdNHtx2LDUTXbuCZ6zoCGrVRvptevWrZPaU2rVFlsW8fVJmojDA+t718s7f37Q6qTVGTcOP2JnYsxEQcraiAXBc9YEr1oXmmep84sO9ofNX7wpcfXmqGGp6+ydvmErN/bwkIVHC1648kOLf/oKXWLeokOF9q0L7GmrWfsSZe+FrF1H/9B56hHaPa4Ntz/Onzj/kF/AgXmJH5XN1udV3bg1K5JH+db/83yDM7v5Td2l3wsEZ/rLwvebrRRjp0I6hW028FKdOoUPpUCE9Zuj73pUbZo373rJDy9ztRI5hm6iFD/DT8yTb6pl6ZLn7kOhiFV5hmwxCXFSnEl5RN9uuZrgEY8+089H2feN9ezHWu38tSOd4JwWkZUKO6abl122vdvtN+60Jyny3FnhOSrs+Yvl/tVtB88hNiDP0M0myU/x0yZ4s2X9oQQ/jY9OIeGGqXet9WmQsVHNrLER0fFeMyv3mtCrrL7XX9VptSdBp6r3r/NWskauDk94up2TkKel0nd47MIgBD5VV+XO0TzuOipvuwn/QgCB7vaT7U2Dhb7JUQNwN3fbDUbN8qgLAzTRP0W0cEi7ksBkabt9vAMCWBSDenPtYId+cAdef+4fSh20OBcEh6AaGHgQCxQOKbDGc8AmXhi28HLAJiM1T3YIYAgUojMA6UwHIARzEBh4cwkognkAa/wbZJLEgS08DtjUsfKe0yEZIZMPJ0YlWED2hzqnQUflcsgnI9S77ZXvWE6dYr25Cr6RTY3TEHqBEL/hgHy4A8ynjEQ0aKYerjvfDLuOYGRqMBevEhlT39fSM3k59bMDJ0YlWADZH6hzGnR6thzIJyPUu1Pf547l1Cme7kIIvZF1ZU0bA4R4BMvgm3JY2vYSDzafMkJEA5oF29zA9aLt2IURAkZ5qwZz8ag2hMYUn8bppUrvtOr+fV8CbIIrWmKIEi2mWOLBOne/eijXSYrGaISEhtkMAAA=') format('woff2');
+}
+
+.custom-icon {
+	font-family: "custom-icon" !important;
+	font-size: 16px;
+	font-style: normal;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.custom-icon-5xing:before {
+	content: "\e67a";
+}
+
+.custom-icon-4xing:before {
+	content: "\e67b";
+}
+
+.custom-icon-3xing:before {
+	content: "\e67c";
+}
+
+.custom-icon-2xing:before {
+	content: "\e67d";
+}
+
+.custom-icon-1xing:before {
+	content: "\e67e";
+}
